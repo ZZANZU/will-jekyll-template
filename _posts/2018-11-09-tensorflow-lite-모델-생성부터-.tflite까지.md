@@ -34,8 +34,4 @@ TensorFlow-for-poet같은 구글 코드랩의 예제 앱들을 보면서 어떻�
 3. 모델의 파라미터들을 export하기위한 준비를 하려고.
 
 ## 어떻게 freeze하는데?
-우선 예제 코드(라고 부를 정도로 기초탄탄 코드는 아니다. 죄송하다...) 링크[Colab link][1]이다.
-
-
-[Colab link] : https://colab.research.google.com/drive/1pHT172kXrhLCPBv-7YaVfoa47p-DLO73
-
+우선 예제 코드(라고 부를 정도로 기초탄탄 코드는 아니다. 죄송하다...) 링크[Colab link](https://colab.research.google.com/drive/1pHT172kXrhLCPBv-7YaVfoa47p-DLO73)이다.
