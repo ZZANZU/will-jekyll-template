@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9028382-84d8-4d26-9a6e-f3392ff1ec23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-09-post-포스팅-테스트.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-09-포스팅-테스트.md" afterDir="false" />
-    </list>
+    <list default="true" id="d9028382-84d8-4d26-9a6e-f3392ff1ec23" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -45,14 +42,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="171" />
-          <entry key="md" value="1389" />
+          <entry key="md" value="1402" />
           <entry key="yml" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="171" />
-          <entry key="PLAIN_TEXT" value="1389" />
+          <entry key="PLAIN_TEXT" value="1402" />
           <entry key="YAML" value="147" />
         </counts>
       </usages-collector>
@@ -81,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-09-tensorflow-lite-모델-생성부터-.tflite까지.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+            <state relative-caret-position="120">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -263,12 +260,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541687300348</updated>
       <workItem from="1541687302721" duration="1010000" />
-      <workItem from="1541697618875" duration="1081000" />
+      <workItem from="1541697618875" duration="1276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3363000" />
+    <option name="totallyTimeSpent" value="3558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="960" height="1177" extended-state="0" />
@@ -373,8 +370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-09-tensorflow-lite-모델-생성부터-.tflite까지.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
