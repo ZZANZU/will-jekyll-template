@@ -34,4 +34,73 @@ TensorFlow-for-poet같은 구글 코드랩의 예제 앱들을 보면서 어떻�
 3. 모델의 파라미터들을 export하기위한 준비를 하려고.
 
 ## 어떻게 freeze하는데?
-우선 예제 코드(라고 부를 정도로 기초탄탄 코드는 아니다. 죄송하다...) 링크[Colab link](https://colab.research.google.com/drive/1pHT172kXrhLCPBv-7YaVfoa47p-DLO73)이다.
+우선 예제 코드 [링크](https://colab.research.google.com/drive/1pHT172kXrhLCPBv-7YaVfoa47p-DLO73)이다. (예제라고 부를 정도로 기초탄탄 코드는 아니다. 죄송하다...)
+
+
+## 학습된 모델, 그래프, 체크포인트 구하기
+```coffeescript
+from google.colab import files # mounting google drive
+import tensorflow as tf
+import numpy as np
+
+W = tf.Variable(initial_value=tf.random_normal([1]), name='weight', trainable=True)
+b = tf.Variable(initial_value=0.001, name='bias', trainable=True)
+
+x = tf.placeholder(dtype=tf.float32, shape=[1], name='x')
+y = tf.add(tf.multiply(W, x), b, name='output')
+
+init = tf.global_variables_initializer()
+
+saver = tf.train.Saver()
+save_path = "data/"
+model_save = save_path + "model.ckpt"
+
+with tf.Session() as sess:
+    sess.run(init)
+    op = sess.run(y, feed_dict={x: np.reshape(1.5, [1])})
+    saver.save(sess, model_save)
+    tf.train.write_graph(sess.graph_def, save_path, 'savegraph.pbtxt')
+
+# 다운로드 받기(Colab + Google Drive)
+files.download("data/savegraph.pbtxt")
+files.download("data/model.ckpt.meta")
+```
+
+## 모델 freeze하기
+```coffeescript
+from tensorflow.python.tools import freeze_graph
+
+# Freeze the graph
+save_path = "data/"
+MODEL_NAME = 'Sample_model'
+input_graph_path = save_path + 'savegraph.pbtxt'
+checkpoint_path = save_path + 'model.ckpt'
+input_saver_def_path = ""
+input_binary = False
+output_node_names = "output"
+restore_op_name = "save/restore_all"
+filename_tensor_name = "save/Const:0"
+output_frozen_graph_name = save_path + 'frozen_model_' + MODEL_NAME + '.pb'
+clear_devices = True
+
+freeze_graph.freeze_graph(input_graph_path, input_saver_def_path,
+                         input_binary, checkpoint_path, output_node_names,
+                         restore_op_name, filename_tensor_name,
+                         output_frozen_graph_name, clear_devices, "")
+```
+
+## frozen 모델 import해오기, Input & Output 노드 정의하기
+```coffeescript
+graph_def_file = 'data/frozen_model_Sample_model.pb' # our pb file
+
+input_arrays = ['x'] # input node, 내가 그래프 만들 때 사용한 input의 이름으로 설정해야됨. output도 동일!
+output_arrays = ['output'] # output node
+
+# DEPRECATED : tf.contrib.lite.TocoConverter.from_frozen_graph
+converter = tf.contrib.lite.TFLiteConverter.from_frozen_graph(graph_def_file, input_arrays, output_arrays)
+
+tflite_model = converter.convert()
+open("converted_model.tflite", "wb").write(tflite_model)
+
+files.download("converted_model.tflite") # tflite 파일 다운로드
+```
