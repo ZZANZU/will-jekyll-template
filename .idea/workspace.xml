@@ -28,7 +28,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="3" />
+          <entry key="html" value="5" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="1" />
           <entry key="js" value="1" />
@@ -41,7 +41,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="5" />
           <entry key="Image" value="6" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="4" />
@@ -52,16 +52,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="171" />
-          <entry key="md" value="4913" />
+          <entry key="html" value="194" />
+          <entry key="md" value="5498" />
           <entry key="yml" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CoffeeScript" value="16" />
-          <entry key="HTML" value="171" />
-          <entry key="Markdown" value="3426" />
+          <entry key="HTML" value="194" />
+          <entry key="Markdown" value="4011" />
           <entry key="PLAIN_TEXT" value="1471" />
           <entry key="YAML" value="147" />
         </counts>
@@ -74,8 +74,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-09-tensorflow-lite-모델-생성부터-.tflite까지.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="812">
-                <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+              <first_editor relative-caret-position="729">
+                <caret line="113" column="57" lean-forward="true" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="57" />
               </first_editor>
               <second_editor />
             </state>
@@ -98,10 +98,31 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-wbs-dictionary란-무엇인가?.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="714">
-                <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <first_editor relative-caret-position="744">
+                <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+                <folding>
+                  <element signature="e#540#580#0" />
+                </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/author.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -129,8 +150,8 @@
       <find>#</find>
       <find>color</find>
       <find>jpg</find>
-      <find>blog-author</find>
       <find>width</find>
+      <find>blog-author</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,6 +168,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-11-09-포스팅-테스트.md" />
         <option value="$PROJECT_DIR$/_posts/2018-11-09-tensorflow-lite-모델-생성부터-.tflite까지.md" />
         <option value="$PROJECT_DIR$/_posts/2018-11-12-안드로이드-sqlite-db에-싱글톤-적용하기.md" />
+        <option value="$PROJECT_DIR$/_includes/author.html" />
         <option value="$PROJECT_DIR$/_posts/2018-11-16-wbs-dictionary란-무엇인가?.md" />
       </list>
     </option>
@@ -169,7 +191,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="736" />
     <option name="y" value="23" />
     <option name="width" value="1184" />
@@ -257,18 +279,18 @@
       <workItem from="1541943282481" duration="1286000" />
       <workItem from="1541954379689" duration="3084000" />
       <workItem from="1541997811281" duration="1000" />
-      <workItem from="1542357544573" duration="2481000" />
+      <workItem from="1542357544573" duration="5445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11946000" />
+    <option name="totallyTimeSpent" value="14910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="736" y="23" width="1184" height="1177" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.079105765" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.04844655" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -282,7 +304,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22672811" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21769911" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -373,13 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-09-포스팅-테스트.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -408,21 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-11-09-tensorflow-lite-모델-생성부터-.tflite까지.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="812">
-            <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-12-안드로이드-sqlite-db에-싱글톤-적용하기.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -436,11 +436,43 @@
     <entry file="file://$PROJECT_DIR$/_posts/wbs.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-11-09-tensorflow-lite-모델-생성부터-.tflite까지.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="729">
+            <caret line="113" column="57" lean-forward="true" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-wbs-dictionary란-무엇인가?.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="714">
-            <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <first_editor relative-caret-position="744">
+            <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <folding>
+              <element signature="e#540#580#0" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>

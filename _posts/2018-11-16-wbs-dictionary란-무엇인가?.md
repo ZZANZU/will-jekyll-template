@@ -45,22 +45,35 @@ twitter_text:
 
 <img src="https://m6n6j6i4.stackpathcdn.com/wp-content/uploads/2014/09/Figure-1-Work-Breakdwon-Structure.png">
 <br>
+
+<img src="https://lh6.googleusercontent.com/6QcLpyXBCs61XZ5eKzNLQZHPh91dIzX8L-J3DjG7GseVQ6_IFXKGRYv7gobh7xHRo1Ml8B89v9uA88RB6cC7wDnSgrtBbbfs-ET7Xj3jmjSt5sH3R3hKbtu7kAxII8Ewl2dynXvD">
+<br>
 <br>
 
-여기서 말하는 계층 구조란 예를 들면 tree 구조를 의미한다. 주어진 프로젝트를 work package 또는 activity 단위로 쪼개서(decompposition)
-프로젝트의 작업이 상세하게 정의될 수 있도록 해준다.
+여기서 말하는 계층 구조란 예를 들면 tree 구조를 의미합니다. 주어진 프로젝트를 work package 또는 activity 단위로 쪼개서(decompposition)
+프로젝트의 작업이 상세하게 정의될 수 있도록 해줍니다.
 <br>
 <hr>
 
 ### WBS 작성시 원칙
-- 100% 법칙 : 'WBS에 적혀져 있는 일들은 100% 수행하여야한다'는 법칙이다.
+- 100% 법칙 : 하위 레벨의 업무들의 합은 상위 레벨의 업무의 양과 같아야한다는 법칙이다.
 - 프로젝트 추진에 필요한 활동을 계획하는 것이 아니라 결과물이 나올 수 있는 계획이어야한다.
 - (대개) Level 2,3가 중요하다 : 대부분의 work package가 이 레벨에 존재하기 때문이다!
 - 한 요소는 4개 이내의 하위요소로 가급적 구성되어야 한다.
 - 같은 단계를 구성하는 요소들은 상호배타적(중복 X)이어야 한다.
 <br>
 <hr>
-이렇게 작성된 WBS를 보고(ex. tree 구조로 work들이 구성된 그림), 이제 우리는 각 항목들에 대해서 WBS dictionary를 작성하게 된다.
+이렇게 작성된 WBS를 보고(ex. tree 구조로 work들이 구성된 그림), 이제 우리는 각 항목들에 대해서 WBS dictionary를 작성하게 됩니다.
+<br>
+<hr>
+
+### WBS dictionary란?
+- WBS의 각 요소(위의 그림에서의 경우 한 칸을 의미)에 대한 자세한 정보를 기술한 것.
+- WBS 산출물의 궁극적 목적은 프로젝트의 일정과 예산을 측정하고 일을 배정하는 기초 단위인 "work package"로 얻는 것으로 비용정산과 예산수립의 기본단위.
+- 성공적인 계획수립을 위해서 가장 중요한 산출물 중의 하나이다.
+- WBS는 도식화된 개념이었기때문에 자세한 정보를 담기에는 한계가 있다. 따라서 이러한 정보를 담는 산출물을 만들게 되었다.
 <br>
 
+<img src="wbs_dictionary.png">
+<br>
 
