@@ -74,6 +74,3 @@ twitter_text:
 - WBS는 도식화된 개념이었기때문에 자세한 정보를 담기에는 한계가 있다. 따라서 이러한 정보를 담는 산출물을 만들게 되었다.
 <br>
 
-<img src="wbs_dictionary.png">
-<br>
-
