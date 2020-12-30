@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9028382-84d8-4d26-9a6e-f3392ff1ec23" name="Default Changelist" comment="" />
+    <list default="true" id="d9028382-84d8-4d26-9a6e-f3392ff1ec23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-12-31-2020년-회고.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-12-31-2020년-회고.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +73,10 @@
       <workItem from="1581943498561" duration="7000" />
       <workItem from="1602599481140" duration="2749000" />
       <workItem from="1602605241243" duration="48000" />
+      <workItem from="1602638918799" duration="126000" />
+      <workItem from="1602763069938" duration="734000" />
+      <workItem from="1609345942808" duration="925000" />
+      <workItem from="1609350462426" duration="739000" />
     </task>
     <task id="LOCAL-00001" summary="[200105] 2019년 회고">
       <created>1578206271919</created>
@@ -92,7 +99,42 @@
       <option name="project" value="LOCAL" />
       <updated>1602605278927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[201013] 2020년 sung kim 교수님 만남 후기 사진 추가">
+      <created>1602639035681</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602639035681</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[201013] 2020년 sung kim 교수님 만남 후기 사진 추가">
+      <created>1609350429921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609350429921</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[201231] 2020년 회고 텍스트 오류 수정">
+      <created>1609350562822</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609350562822</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[201231] 2020년 회고 이미지 배치 수정">
+      <created>1609350821658</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609350821658</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[201231] 2020년 회고 이미지 배치 수정 -2-">
+      <created>1609351068980</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609351068980</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,17 +156,25 @@
     <MESSAGE value="[200105] 2019년 회고" />
     <MESSAGE value="[200105] 2019년 회고, 2020년 sung kim 교수님 만남 후기" />
     <MESSAGE value="[201013] 2020년 sung kim 교수님 만남 후기 인덴트 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="[201013] 2020년 sung kim 교수님 만남 후기 인덴트 수정" />
+    <MESSAGE value="[201013] 2020년 sung kim 교수님 만남 후기 사진 추가" />
+    <MESSAGE value="[201231] 2020년 회고 텍스트 오류 수정" />
+    <MESSAGE value="[201231] 2020년 회고 이미지 배치 수정" />
+    <MESSAGE value="[201231] 2020년 회고 이미지 배치 수정 -2-" />
+    <option name="LAST_COMMIT_MESSAGE" value="[201231] 2020년 회고 이미지 배치 수정 -2-" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="417" y="14" key="CommitChangelistDialog2" timestamp="1602605278760">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="417" y="25" width="831" height="1025" key="CommitChangelistDialog2" timestamp="1609351068838">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="417" y="14" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602605278760" />
-    <state x="440" y="261" key="Vcs.Push.Dialog.v2" timestamp="1602605281424">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="635" y="14" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1602639035479" />
+    <state x="417" y="25" width="831" height="1025" key="CommitChangelistDialog2/0.25.1680.1025/1680.-47.1920.1055@0.25.1680.1025" timestamp="1609351068838" />
+    <state x="440" y="279" key="Vcs.Push.Dialog.v2" timestamp="1609351167069">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="440" y="261" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602605281424" />
+    <state x="670" y="268" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1602639037698" />
+    <state x="440" y="279" key="Vcs.Push.Dialog.v2/0.25.1680.1025/1680.-47.1920.1055@0.25.1680.1025" timestamp="1609351167069" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1602599517667">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
